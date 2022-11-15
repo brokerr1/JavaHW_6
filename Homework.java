@@ -24,9 +24,9 @@ public class Homework {
         map.put("os", "win");
         map.put("color", "black");
         List<Notebook> notebookslist = hw.initListNotebooks(); //список ноутбуков
-        System.out.println(notebookslist);
+        System.out.println("Cписок ноутбуков:\n" + notebookslist);
         List<Notebook> filternotebook = hw.filter(map, notebookslist); //отфильтрованные ноутбуки
-        System.out.println(filternotebook);
+        System.out.println("\nОтфильтрованные ноутбуки:\n" + filternotebook);
     }
 
 
@@ -55,7 +55,7 @@ public class Homework {
                     if (notebooks.get(i).getRam() == map.get("ram")){
                         if (notebooks.get(i).getSsd() == map.get("ssd")){
                         filternotebooks.add(notebooks.get(i));
-                        System.out.println(notebooks.get(i));
+                        //System.out.println(notebooks.get(i));
                         }
                     }
                 }
