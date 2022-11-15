@@ -33,11 +33,17 @@ public class Homework {
     public List<Notebook> initListNotebooks(){
         List<Notebook> notebooks = new ArrayList<>();
         notebooks.add(new Notebook("asus", "5089", "8", "256", "win", "black", 10999));
-        notebooks.add(new Notebook("aser", "6941", "8", "512", "linux", "gray", 10999));
-        notebooks.add(new Notebook("lenovo", "9431", "4", "256", "win", "gray", 10999));
-        notebooks.add(new Notebook("asus", "6815", "8", "512", "win", "black", 10999));
-        notebooks.add(new Notebook("lenovo", "9844", "4", "512", "linux", "black", 10999));
-        notebooks.add(new Notebook("asus", "1864", "8", "512", "win", "white", 10999));
+        notebooks.add(new Notebook("aser", "6941", "8", "512", "linux", "gray", 20999));
+        notebooks.add(new Notebook("lenovo", "9431", "4", "256", "win", "gray", 30999));
+        notebooks.add(new Notebook("asus", "6815", "8", "512", "win", "black", 15999));
+        notebooks.add(new Notebook("lenovo", "9844", "4", "512", "linux", "black", 40999));
+        notebooks.add(new Notebook("asus", "1864", "8", "512", "win", "white", 9999));
+        notebooks.add(new Notebook("asus", "5089", "8", "256", "win", "black", 33999));
+        notebooks.add(new Notebook("aser", "6941", "8", "256", "win", "gray", 12999));
+        notebooks.add(new Notebook("lenovo", "9431", "4", "256", "win", "gray", 25999));
+        notebooks.add(new Notebook("asus", "6815", "8", "512", "win", "black", 11999));
+        notebooks.add(new Notebook("lenovo", "9844", "4", "512", "linux", "black", 16999));
+        notebooks.add(new Notebook("asus", "1864", "8", "512", "win", "white", 17999));
         return notebooks;
     }
 
